@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -12,45 +13,48 @@
 <!--Header-->
 
     <header>
-        <div><a><img src="/medias/Images/logo.png" alt="logo"></a></div>
-        <div>
+        <div class="logo"><a><img src="/medias/Images/logo.png" alt="logo"></a></div>
+        <div class="nav-urls">
             <a href="#">COURSES</a>
             <a href="#">PRICING</a>
             <a href="#">LOGIN</a>
         </div>
     </header>
+
     <main>
 
 <!--Banner Section-->
 
-        <section>
-            <div>
-                <h1>Get Schooled</h1>
-                <p>SMILES</p>
-                <p>GRIN</p>
-                <p>LAUGH</p>
-                <button>Register for Tutorials</button>
+        <section class="header-section">
+            <div class="schooled">
+                <h1 class="schooled-title">Get Schooled</h1>
+                <p class="schooled-text">
+                    <span>SMILE</span>
+                    <span>GRIN</span>
+                    <span>LAUGH</span>
+                </p>
+                <button class="register-btn">Register for Tutorials</button>
             </div>
 
-            <div>
-                <h2><span>Learn</span> From The Pros</h2>
-                <div>
-                    <div>
+            <div class="pros">
+                <h2 class="pros-title"><span class="secondary-color">Learn</span> From The Pros</h2>
+                <div class="pros-block">
+                    <div class="pros-card">
                         <img src="/medias/Images/philip.png" alt="Philip's Image">
                         <h3>Philip Cgreg</h3>
                         <p>« Smile of the year » 2018-2019</p>
                     </div>
-                    <div>
+                    <div class="pros-card">
                         <img src="/medias/Images/nannie.png" alt="Nannis's Image">
                         <h3>Nannie James</h3>
                         <p>« Best Little Smile » 2018</p>
                     </div>
-                    <div>
+                    <div class="pros-card">
                         <img src="/medias/Images/bruce.png" alt="Bruce's Image">
                         <h3>Bruce Yong</h3>
                         <p>« Best friend Smile » Live performance 2019</p>
                     </div>
-                    <div>
+                    <div class="pros-card">
                         <img src="/medias/Images/henry.png" alt="Henry's Image">
                         <h3>Henry Cook</h3>
                         <p>« 24 times Smile Winner »</p>
@@ -61,99 +65,103 @@
 
 <!--Quote section-->
 
-        <section>
-            <div>
+        <section class="presenter-section">
+            <div class="presenter-block">
                 <img src="/medias/Images/Quote-bro.png" alt="Picture of a man quotino">
                 <div>
                     <blockquote>
                         « Those tutorials are concise and go straight to the point. I can’t think of a better
                         place to learn smiling. And it’s so fun!
                     </blockquote>
-                    <p>Jason Quoter</p>
-                    <p>Weather presenter</p>
+                    <p class="person-name">Jason Quoter</p>
+                    <p class="weather">Weather presenter</p>
                 </div>
             </div>
         </section>
 
 <!--This is the Video and Rating Section-->
 
-        <section>
-            <h1>Check out<span>popular</span>Videos</h1>
-            <div>
-                <div>
+        <section class="videos-section">
+            <h1>Check out <span class="secondary-color">popular</span> Videos</h1>
+            <div class="videos-list">
+                <div class="video-card">
                     <img src="/medias/Images/preview_diag.png" alt="preview image for video">
+                    <a class="play" href="#"><img src="/medias/Images/play.png" alt=""></a>
                     <h2>Diagonal Smile</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    <div>
-                        <img src="/medias/Images/philip_sm.png" alt="philip_small">
-                        <h3>Philip Cgreg</h3>
+                    <p class="video-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="author">
+                        <img class="author-img" src="/medias/Images/philip_sm.png" alt="philip_small">
+                        <h3 class="author-name">Philip Cgreg</h3>
                     </div>
-                    <div>
-                        <div>
+                    <div class="rating-part">
+                        <div class="rating">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_5.svg" alt="">
                         </div>
-                        <p>8 min</p>
+                        <p class="duration">8 min</p>
                     </div>
                 </div>
-                <div>
+                <div class="video-card">
                     <img src="/medias/Images/preview_sad.png" alt="preview image for video">
+                    <a class="play" href="#"><img src="/medias/Images/play.png" alt=""></a>
                     <h2>Sad Smile</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    <div>
-                        <img src="/medias/Images/philip_sm.png" alt="philip_small">
-                        <h3>Philip Cgreg</h3>
+                    <p class="video-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="author">
+                        <img class="author-img" src="/medias/Images/philip_sm.png" alt="philip_small">
+                        <h3 class="author-name">Philip Cgreg</h3>
                     </div>
-                    <div>
-                        <div>
+                    <div class="rating-part">
+                        <div class="rating">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_5.svg" alt="">
                         </div>
-                        <p>8 min</p>
+                        <p class="duration">8 min</p>
                     </div>
                 </div>
-                <div>
+                <div class="video-card">
                     <img src="/medias/Images/preview_nat.png" alt="preview image for video">
+                    <a class="play" href="#"><img src="/medias/Images/play.png" alt=""></a>
                     <h2>Natural Smile</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    <div>
-                        <img src="/medias/Images/philip_sm.png" alt="philip_small">
-                        <h3>Philip Cgreg</h3>
+                    <p class="video-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="author">
+                        <img class="author-img" src="/medias/Images/philip_sm.png" alt="philip_small">
+                        <h3 class="author-name">Philip Cgreg</h3>
                     </div>
-                    <div>
-                        <div>
+                    <div class="rating-part">
+                        <div class="rating">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_5.svg" alt="">
                         </div>
-                        <p>8 min</p>
+                        <p class="duration">8 min</p>
                     </div>
                 </div>
-                <div>
+                <div class="video-card">
                     <img src="/medias/Images/preview_hap.png" alt="preview image for video">
+                    <a class="play" href="#"><img src="/medias/Images/play.png" alt=""></a>
                     <h2>Happy Smile</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    <div>
-                        <img src="/medias/Images/philip_sm.png" alt="philip_small">
-                        <h3>Philip Cgreg</h3>
+                    <p class="video-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <div class="author">
+                        <img class="author-img" src="/medias/Images/philip_sm.png" alt="philip_small">
+                        <h3 class="author-name">Philip Cgreg</h3>
                     </div>
-                    <div>
-                        <div>
+                    <div class="rating-part">
+                        <div class="rating">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_1.svg" alt="">
                             <img src="/medias/svgs/Star_5.svg" alt="">
                         </div>
-                        <p>8 min</p>
+                        <p class="duration">8 min</p>
                     </div>
                 </div>
             </div>
@@ -161,42 +169,47 @@
 
 <!--This is the Membership Section-->
 
-        <section>
-            <h1>Free membersip</h1>
-            <div>
-                <div>
-                    <img src="/medias/svgs/smile.svg" alt="">
-                    <h2>Lorem Ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <section class="membership-section">
+            <h1><span class="secondary-color">Free</span> membership</h1>
+            <div class="memberships">
+                <div class="membership-card">
+                    <img src="/medias/svgs/smile.svg" alt="smile">
+                    <h2>Lorem ipsum</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                 </div>
-                <div>
-                    <div>
-                        <img src="/medias/svgs/smile.svg" alt="">
-                        <h2>Lorem Ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <div class="membership-card">
+                    <img src="/medias/svgs/smile.svg" alt="smile">
+                    <h2>Lorem ipsum</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                 </div>
-                <div>
-                    <div>
-                        <img src="/medias/svgs/smile.svg" alt="">
-                        <h2>Lorem Ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <div class="membership-card">
+                    <img src="/medias/svgs/smile.svg" alt="smile">
+                    <h2>Lorem ipsum</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                 </div>
-                <div>
-                    <div>
-                        <img src="/medias/svgs/smile.svg" alt="">
-                        <h2>Lorem Ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <div class="membership-card">
+                    <img src="/medias/svgs/smile.svg" alt="smile">
+                    <h2>Lorem ipsum</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                 </div>
             </div>
-            <button>Register for free</button>
+            <button class="register-btn">REGISTER FOR FREE</button>
         </section>
 
 <!--This is the FAQ Section-->
 
-        <section>
-            <h1>F.A.Q</h1>
-            <div>
-                <div>
+        <section class="faq-section">
+            <h1>F.A.Q.</h1>
+            <div class="faq-list">
+                <div class="faq-item">
                     <h2>How does this work?</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel felis vitae massa finibus fermentum a in felis. 
@@ -207,7 +220,7 @@
                         Aliquam molestie iaculis magna
                     </p>
                 </div>
-                <div>
+                <div class="faq-item">
                     <h2>How does this work?</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel felis vitae massa finibus fermentum a in felis. 
@@ -218,7 +231,7 @@
                         Aliquam molestie iaculis magna
                     </p>
                 </div>
-                <div>
+                <div class="faq-item">
                     <h2>How does this work?</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel felis vitae massa finibus fermentum a in felis. 
@@ -229,7 +242,7 @@
                         Aliquam molestie iaculis magna
                     </p>
                 </div>
-                <div>
+                <div class="faq-item">
                     <h2>How does this work?</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel felis vitae massa finibus fermentum a in felis. 
@@ -246,18 +259,18 @@
 
 <!--This is the footer section-->
 
-<footer>
-    <div>
-        <div>
-            <img src="/medias/Images/logo.png" alt="">
-            <div>
-                <a href="https://www.instagram.com/ub_bobo/" target="_blank"><img src="/medias/svgs/instagram.svg" alt=""></a>
-                <a href="https://www.facebook.com/ub.essien733/" target="_blank"><img src="/medias/svgs/facebook.svg" alt=""></a>
-                <a href="https://twitter.com/i/flow/single_sign_on" target="_blank"><img src="/medias/svgs/twitter.svg" alt=""></a>
+    <footer>
+        <div class="ft-container">
+            <div class="nav-ft">
+                <img src="/medias/Images/logo.png" alt="">
+                <div>
+                    <a href="https://www.instagram.com/ub_bobo/" target="_blank"><img src="/medias/svgs/C-Shape.svg" alt=""></a>
+                    <a href="https://www.facebook.com/ub.essien733/" target="_blank"><img src="/medias/svgs/facebook.svg" alt=""></a>
+                    <a href="https://twitter.com/i/flow/single_sign_on" target="_blank"><img src="/medias/svgs/twitter.svg" alt=""></a>
+                </div>
             </div>
+            <p>© Isaiah Essien 2023- i.essien@alustudent.com</p>
         </div>
-        <p>© Isaiah Essien 2023- i.essien@alustudent.com</p>
-    </div>
-</footer>
+    </footer>
 </body>
 </html>
